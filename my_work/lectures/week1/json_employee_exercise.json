@@ -1,0 +1,10 @@
+
+{
+    "employees":[
+        {"firstName":"John", "lastName":"Doe", "address":"Cork", "age":30},
+        {"firstName":"Anna", "lastName":"Smith", "address":"Galway", "age":25},
+        {"firstName":"Peter", "lastName":"Jones", "address":"Dublin", "age":34},
+        {"firstName":"Atacan", "lastName":"Buyuktalas", "address":"Ranelagh", "age":32},
+        {"firstName":"Alper", "lastName":"Eyuboglu", "address":"Lusk", "age":29}
+    ]
+}
