@@ -25,7 +25,7 @@ def single_battle():
 
     return attacker_losses, defender_losses
 
-def multiple_battle(num_rounds):
+def multiple_battles(num_rounds):
     attacker_wins = 0
     defender_wins = 0
     # simulating the specific number of rounds
@@ -40,7 +40,7 @@ def multiple_battle(num_rounds):
 # Plotting the results of the full war
 def war():
     num_rounds = 1000
-    attacker_wins, defender_wins = multiple_battle(num_rounds)
+    attacker_wins, defender_wins = multiple_battles(num_rounds)
 
     labels = ['Attacker Wins', 'Defender Wins']
     counts = [attacker_wins, defender_wins]
