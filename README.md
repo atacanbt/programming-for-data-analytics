@@ -33,6 +33,18 @@ Run the following command to install the dependencies:
 pip install pandas matplotlib seaborn scikit-learn numpy
 ```
 
+The following Python libraries and modules are required for running the projects in this repository:
+```python
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+```
+
 ### 4. Running Jupyter Notebooks
 
 <a target="_blank" href="https://colab.research.google.com/github/atacanbt/programming_for_data_analytics/blob/main/project/rainfall_analysis_dublin.ipynb">
